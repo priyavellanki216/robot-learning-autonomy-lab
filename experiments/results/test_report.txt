@@ -1,0 +1,12 @@
+=== Ruff lint ===
+[1;32mAll checks passed![0m
+=== Ruff format ===
+29 files already formatted
+=== Python compileall ===
+compileall: passed
+=== Pytest ===
+.......                                                                  [100%]
+7 passed in 8.80s
+=== Scripted end-to-end demo ===
+AdroitHandRelocateDense-v1, AdroitHandHammerDense-v1, AdroitHandDoorDense-v1 environment's reward functions were updated in v1.2.1 without an environment version update. Therefore, use gymnasium-robotics==1.2.0 for v1 reproducibility or use v2 in gymnasium-robotics>=1.4.3. See https://github.com/Farama-Foundation/Gymnasium-Robotics/pull/220 for more details
+policy=expert seed=17 success=True steps=26 reward=-0.045

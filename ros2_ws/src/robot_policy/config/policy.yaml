@@ -1,0 +1,5 @@
+robot_policy:
+  ros__parameters:
+    checkpoint: experiments/checkpoints/bc_policy.pt
+    observation_topic: /robot/observation
+    action_topic: /robot/action

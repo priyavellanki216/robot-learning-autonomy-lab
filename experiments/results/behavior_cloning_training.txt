@@ -1,0 +1,9 @@
+{
+  "train_loss": 0.018944012350402772,
+  "validation_loss": 0.02748996578156948,
+  "epochs": 100,
+  "train_samples": 1017,
+  "validation_samples": 259,
+  "demonstrations": 40,
+  "checkpoint": "experiments/checkpoints/bc_policy.pt"
+}

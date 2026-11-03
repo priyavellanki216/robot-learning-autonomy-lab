@@ -1,0 +1,10 @@
+simulator: gymnasium_robotics.fetch.FetchPickAndPlace-v4
+reward_type: dense
+observation:
+  dimensions: 28
+  feature_order: [gripper_xyz, object_xyz, object_relative_xyz, gripper_joint_positions, object_rotation, object_linear_velocity, object_angular_velocity, gripper_linear_velocity, gripper_joint_velocity, desired_goal_xyz]
+action:
+  dimensions: 4
+  bounds: [-1.0, 1.0]
+  components: [delta_x, delta_y, delta_z, gripper_open_close]
+max_episode_steps: 50

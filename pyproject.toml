@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=69,<85", "wheel>=0.43,<1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robot-learning-autonomy-lab"
+version = "0.1.0"
+description = "Reproducible MuJoCo manipulation learning experiments: expert, behavior cloning, PPO, and ROS 2 interfaces"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "MIT"
+authors = [{name = "Priya Vellanki"}]
+dependencies = [
+  "gymnasium==1.2.3",
+  "gymnasium-robotics==1.4.2",
+  "mujoco==3.17.0",
+  "numpy==2.5.4",
+  "torch==2.15.0",
+  "stable-baselines3==2.7.0",
+  "matplotlib==3.11.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==8.4.2", "ruff==0.17.3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+ignore = ["E501"]

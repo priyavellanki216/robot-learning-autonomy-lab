@@ -1,0 +1,11 @@
+flowchart LR
+  M[MuJoCo FetchPickAndPlace-v4] --> E[28D Gymnasium adapter]
+  E --> X[Scripted finite-state expert]
+  X --> D[Validated episode NPZ]
+  D --> B[PyTorch Behavior Cloning]
+  E --> P[Stable-Baselines3 PPO]
+  X --> V[Common held-out evaluation]
+  B --> V
+  P --> V
+  B --> S[Action validation and safe fallback]
+  S --> R[ROS 2 adapter: source-only]

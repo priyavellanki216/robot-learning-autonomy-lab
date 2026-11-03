@@ -1,0 +1,713 @@
+[
+  {
+    "policy": "scripted_baseline",
+    "episodes": 20,
+    "success_rate": 1.0,
+    "mean_completion_seconds": 0.048654480249979315,
+    "mean_episode_length": 28.05,
+    "grasp_success_rate": 0.9,
+    "object_drop_rate": 0.0,
+    "mean_reward": -5.379880810706064,
+    "invalid_action_episodes": 0,
+    "failure_categories": {
+      "success": 20
+    },
+    "episodes_detail": [
+      {
+        "seed": 1000,
+        "success": true,
+        "steps": 28,
+        "elapsed_seconds": 0.050223713999912434,
+        "return": -3.056824151443304,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1001,
+        "success": true,
+        "steps": 32,
+        "elapsed_seconds": 0.05582237600015105,
+        "return": -10.95801713359464,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1002,
+        "success": true,
+        "steps": 32,
+        "elapsed_seconds": 0.05793209800003751,
+        "return": -7.176523955779244,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1003,
+        "success": true,
+        "steps": 30,
+        "elapsed_seconds": 0.0528124149998348,
+        "return": -4.28007456074072,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1004,
+        "success": true,
+        "steps": 30,
+        "elapsed_seconds": 0.05365961699999389,
+        "return": -2.634315949573079,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1005,
+        "success": true,
+        "steps": 30,
+        "elapsed_seconds": 0.056724308000184465,
+        "return": -3.167925181665765,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1006,
+        "success": true,
+        "steps": 32,
+        "elapsed_seconds": 0.05722927900001196,
+        "return": -10.766570488348359,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1007,
+        "success": true,
+        "steps": 33,
+        "elapsed_seconds": 0.05796687499992004,
+        "return": -7.368844950146105,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1008,
+        "success": true,
+        "steps": 28,
+        "elapsed_seconds": 0.048745589999953154,
+        "return": -1.6858070110585173,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1009,
+        "success": true,
+        "steps": 1,
+        "elapsed_seconds": 0.0014738949998900353,
+        "return": -0.01382144492444896,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1010,
+        "success": true,
+        "steps": 35,
+        "elapsed_seconds": 0.06012671799999225,
+        "return": -8.413369479837348,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1011,
+        "success": true,
+        "steps": 30,
+        "elapsed_seconds": 0.0515276730000096,
+        "return": -3.0074102380573593,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1012,
+        "success": true,
+        "steps": 1,
+        "elapsed_seconds": 0.0014354170000387967,
+        "return": -0.031419820355774015,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1013,
+        "success": true,
+        "steps": 28,
+        "elapsed_seconds": 0.04692165999995268,
+        "return": -6.690171349478091,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1014,
+        "success": true,
+        "steps": 35,
+        "elapsed_seconds": 0.05859678100000565,
+        "return": -7.721479203074061,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1015,
+        "success": true,
+        "steps": 33,
+        "elapsed_seconds": 0.05587784599993029,
+        "return": -5.553941271890327,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1016,
+        "success": true,
+        "steps": 31,
+        "elapsed_seconds": 0.05230947399991237,
+        "return": -9.133330040713988,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1017,
+        "success": true,
+        "steps": 30,
+        "elapsed_seconds": 0.049821230999896216,
+        "return": -7.355425963829554,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1018,
+        "success": true,
+        "steps": 30,
+        "elapsed_seconds": 0.04933424000000741,
+        "return": -3.2747072081328974,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1019,
+        "success": true,
+        "steps": 32,
+        "elapsed_seconds": 0.0545483979999517,
+        "return": -5.3076368114777095,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      }
+    ]
+  },
+  {
+    "policy": "behavior_cloning",
+    "episodes": 20,
+    "success_rate": 0.4,
+    "mean_completion_seconds": 0.08587081570000236,
+    "mean_episode_length": 38.05,
+    "grasp_success_rate": 0.85,
+    "object_drop_rate": 0.6,
+    "mean_reward": -7.3752734086599805,
+    "invalid_action_episodes": 0,
+    "failure_categories": {
+      "drop": 11,
+      "not_placed": 1,
+      "success": 8
+    },
+    "episodes_detail": [
+      {
+        "seed": 1000,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.11159170899986748,
+        "return": -5.625288870826893,
+        "grasped": true,
+        "dropped": true,
+        "invalid_actions": 0,
+        "failure_category": "drop"
+      },
+      {
+        "seed": 1001,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.10013088899995637,
+        "return": -13.019271951917176,
+        "grasped": true,
+        "dropped": true,
+        "invalid_actions": 0,
+        "failure_category": "drop"
+      },
+      {
+        "seed": 1002,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.09709411099993304,
+        "return": -10.43196026259603,
+        "grasped": true,
+        "dropped": true,
+        "invalid_actions": 0,
+        "failure_category": "drop"
+      },
+      {
+        "seed": 1003,
+        "success": true,
+        "steps": 22,
+        "elapsed_seconds": 0.04196520200002851,
+        "return": -3.1115570797723,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1004,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.11012842800005274,
+        "return": -6.017506479920513,
+        "grasped": true,
+        "dropped": true,
+        "invalid_actions": 0,
+        "failure_category": "drop"
+      },
+      {
+        "seed": 1005,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.13262724500009426,
+        "return": -6.309290969636989,
+        "grasped": true,
+        "dropped": true,
+        "invalid_actions": 0,
+        "failure_category": "drop"
+      },
+      {
+        "seed": 1006,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.106327231999785,
+        "return": -17.497039466473996,
+        "grasped": true,
+        "dropped": true,
+        "invalid_actions": 0,
+        "failure_category": "drop"
+      },
+      {
+        "seed": 1007,
+        "success": true,
+        "steps": 31,
+        "elapsed_seconds": 0.06440219900014199,
+        "return": -6.610569763407627,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1008,
+        "success": true,
+        "steps": 17,
+        "elapsed_seconds": 0.03373255499991501,
+        "return": -0.9421432383812705,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1009,
+        "success": true,
+        "steps": 1,
+        "elapsed_seconds": 0.0020519519998742908,
+        "return": -0.01382144492444896,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1010,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.13337414300008277,
+        "return": -12.403904007207755,
+        "grasped": true,
+        "dropped": true,
+        "invalid_actions": 0,
+        "failure_category": "drop"
+      },
+      {
+        "seed": 1011,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.14958633400010513,
+        "return": -5.225122521401505,
+        "grasped": true,
+        "dropped": true,
+        "invalid_actions": 0,
+        "failure_category": "drop"
+      },
+      {
+        "seed": 1012,
+        "success": true,
+        "steps": 1,
+        "elapsed_seconds": 0.0018551680000200577,
+        "return": -0.031419820355774015,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1013,
+        "success": true,
+        "steps": 24,
+        "elapsed_seconds": 0.04925353999988147,
+        "return": -5.1729558694335465,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1014,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.12751062699999238,
+        "return": -14.035642210762418,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1015,
+        "success": true,
+        "steps": 33,
+        "elapsed_seconds": 0.07506050400002096,
+        "return": -4.903962193107914,
+        "grasped": true,
+        "dropped": true,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1016,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.11064906000001429,
+        "return": -15.230052619918757,
+        "grasped": true,
+        "dropped": true,
+        "invalid_actions": 0,
+        "failure_category": "drop"
+      },
+      {
+        "seed": 1017,
+        "success": true,
+        "steps": 32,
+        "elapsed_seconds": 0.061293542000157686,
+        "return": -6.5366847515873205,
+        "grasped": true,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1018,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.10107632900007957,
+        "return": -6.323776538785493,
+        "grasped": true,
+        "dropped": true,
+        "invalid_actions": 0,
+        "failure_category": "drop"
+      },
+      {
+        "seed": 1019,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.10770554500004437,
+        "return": -8.063498112781867,
+        "grasped": true,
+        "dropped": true,
+        "invalid_actions": 0,
+        "failure_category": "drop"
+      }
+    ]
+  },
+  {
+    "policy": "ppo",
+    "episodes": 20,
+    "success_rate": 0.1,
+    "mean_completion_seconds": 0.10059641929998406,
+    "mean_episode_length": 45.1,
+    "grasp_success_rate": 0.0,
+    "object_drop_rate": 0.0,
+    "mean_reward": -9.633731602617681,
+    "invalid_action_episodes": 0,
+    "failure_categories": {
+      "not_placed": 18,
+      "success": 2
+    },
+    "episodes_detail": [
+      {
+        "seed": 1000,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.09981144099992889,
+        "return": -6.114780155964355,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1001,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.1010047540000869,
+        "return": -20.03013472138396,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1002,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.09878521099994941,
+        "return": -13.483501415328584,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1003,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.18275817299991104,
+        "return": -7.61146736823734,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1004,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.15716709999992418,
+        "return": -4.287083606860191,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1005,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.13814498799979447,
+        "return": -5.352245659485551,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1006,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.11121584500006065,
+        "return": -20.297593503031095,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1007,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.1105774279999423,
+        "return": -12.643521980387794,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1008,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.1079744149999442,
+        "return": -2.669111533805646,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1009,
+        "success": true,
+        "steps": 1,
+        "elapsed_seconds": 0.0024069039998266817,
+        "return": -0.01382144492444896,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1010,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.12788613399993665,
+        "return": -14.03460348594337,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1011,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.09602649099997507,
+        "return": -5.012628936249297,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1012,
+        "success": true,
+        "steps": 1,
+        "elapsed_seconds": 0.0019730050000816846,
+        "return": -0.031419820355774015,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "success"
+      },
+      {
+        "seed": 1013,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.09557426600008512,
+        "return": -13.14816543554658,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1014,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.09455846600008044,
+        "return": -12.784854198009482,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1015,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.09654369800000495,
+        "return": -9.197538251046462,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1016,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.09738971700016918,
+        "return": -17.111787478738954,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1017,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.09676816999990479,
+        "return": -14.196587093390578,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1018,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.09729362999996738,
+        "return": -5.5490342436097295,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      },
+      {
+        "seed": 1019,
+        "success": false,
+        "steps": 50,
+        "elapsed_seconds": 0.09806855000010728,
+        "return": -9.104751720054415,
+        "grasped": false,
+        "dropped": false,
+        "invalid_actions": 0,
+        "failure_category": "not_placed"
+      }
+    ]
+  }
+]
