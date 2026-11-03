@@ -14,7 +14,7 @@ The policy observation is 28D `float32`: the source Fetch 25D observation (gripp
 
 ![Robot learning system architecture](docs/architecture.png)
 
-See [`docs/architecture.md`](docs/architecture.md), [`docs/environment.md`](docs/environment.md), and [`docs/reward_design.md`](docs/reward_design.md) for design details.
+See [`docs/architecture.md`](docs/architecture.md), [`docs/environment.md`](docs/environment.md), [`docs/environment_audit.md`](docs/environment_audit.md), and [`docs/reward_design.md`](docs/reward_design.md) for design details and the measured sandbox capability audit.
 
 ## Install and reproduce
 
